@@ -43,27 +43,4 @@ Just to verify if system has git installed or not, please run below command in t
 git — version
 ```
 
-This command will print the git version in the terminal.
 
-How to generate and set up SSH keys:
-
-1. Generate a new SSH key pair:
-
-```
-ssh-keygen -t ed25519 -C "your_email@example.com"
-```
-2. When prompted, you can press Enter to accept the default file location:
-
-```
-Enter file in which to save the key (/home/YOU/.ssh/id_ed25519):
-```
-
-
-3. Enter a secure passphrase (optional but recommended):
-
-```
-
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-
-```
